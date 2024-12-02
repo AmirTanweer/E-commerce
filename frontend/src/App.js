@@ -1,8 +1,22 @@
 import React from 'react'
+import HomePage from './pages/HomePage'
+import NavBar from './components/NavBar'
+import CartState from './context/cart/CartState'
+
 
 const App = () => {
   return (
-    <div className='text-3xl text-red-500'>App</div>
+    <>
+    
+  <CartState>
+
+    <NavBar/>
+    <HomePage/>
+    
+  </CartState>
+    </>
+
+    
   )
 }
 

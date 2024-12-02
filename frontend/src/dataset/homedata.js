@@ -1,0 +1,61 @@
+const homedata = [
+    {
+        id:1,
+        title:"Laptop",
+    },
+    {
+      id:2,
+      title:"Mobile",
+    },
+    {
+        id:3,
+        title:"Camera",
+    },
+    {
+        id:4,
+        title:"Headphone",
+    },
+    {
+        id:5,
+        title:"Watch",
+    },
+    {
+        id:6,
+        title:"Tablet",
+    },
+    {
+        id:7,
+        title:"Printer",
+    },
+    {
+        id:8,
+        title:"Keyboard",
+    },
+    {
+        id:9,
+        title:"Suits",
+    },
+    {
+        id:10,
+        title:"Shoes",
+    },
+    {
+        id:11,
+        title:"Pants",
+    },
+    {
+        id:12,
+        title:"Shirt",
+    },
+    {
+        id:13,
+        title:"Jeans",  
+    },
+    {
+        id:14,
+        title:"T-shirt",
+    }
+]
+
+
+export default homedata;

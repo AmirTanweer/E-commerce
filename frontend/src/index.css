@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Keyframe animation for sliding text */
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply the animation to the title */
+  .animate-slideInFromLeft {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
